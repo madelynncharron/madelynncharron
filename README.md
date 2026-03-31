@@ -13,7 +13,9 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 ## 🚨 Threat Hunting and Security Operations
 
+- **[Threat Hunting Scenario (Azuki Series - Pt 1: Port of Entry)](https://github.com/madelynncharron/threat-hunting-scenario-azuki-port-of-entry/blob/main/Port%20of%20Entry.md)**
 - **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/madelynncharron/threat-hunting-scenario-tor/blob/main/README.md)**
+
 
 <hr/>
 

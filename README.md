@@ -1,11 +1,17 @@
 # <a href="https://www.linkedin.com/in/madelynn-charron-345940239/">Madelynn Charron</a>'s IT and Cybersecurity Project Portfolio 🔐
 
-I'm passionate about cybersecurity and love tackling complex challenges through hands-on projects. From vulnerability management to threat detection, these projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
+I'm a security analyst working toward a dedicated SOC / defensive security analyst role, currently combining security operations with technical support in a hybrid IT/security position. My day-to-day spans threat hunting, vulnerability management, log analysis in Wazuh, dashboard building, and vendor risk assessments — and this portfolio is where I document that work in more depth, along with independent projects I've built to keep sharpening specific skills.
+
+Certifications: CompTIA CySA+ · PenTest+ · Security+ · Network+ · (ISC)² SSCP<br>
+Currently working toward: BTL1 (Blue Team Level 1)<br>
+Core tools & frameworks: Wazuh / OpenSearch Dashboards (DQL), Microsoft Sentinel (KQL), MITRE ATT&CK, Tenable/Nessus, SOC 2 & vendor risk frameworks
+
+Feel free to look around — each project below links to a full write-up.
 
 
 ## ⚠️ Vulnerability Management Projects
 
-- **[Vulnerability Management Program Implementation](https://github.com/madelynncharron/vulnerability-management-program)**
+- **[Vulnerability Management Program Implementation](https://github.com/madelynncharron/vulnerability-management-program)** - End-to-end vulnerability management program build-out, including scanning, prioritization, and remediation workflow design.
 
 <!-- 
 - **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/joshcybertest/programmatic-vulnerability-remediations)**
@@ -13,10 +19,15 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 ## 🚨 Threat Hunting and Security Operations
 
-- **[Threat Hunting Scenario (Credential Access)](https://github.com/madelynncharron/threat-hunting-scenario-credential-access-dc/blob/main/README.md)**
-- **[Threat Hunting Scenario (Port of Entry)](https://github.com/madelynncharron/threat-hunting-scenario-azuki-port-of-entry/blob/main/Port%20of%20Entry.md)**
-- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/madelynncharron/threat-hunting-scenario-tor/blob/main/README.md)**
+- **[Threat Hunting Scenario (Credential Access)](https://github.com/madelynncharron/threat-hunting-scenario-credential-access-dc/blob/main/README.md)** - Proactive hunt (not alert-driven) tracing a MITRE Credential Access / Pass-the-Hash pattern on a live production domain controller back to expected MFA proxy authentication behavior. Full walkthrough of the investigation logic, query-by-query reasoning, and root-cause conclusion.
+- **[Threat Hunting Scenario (Port of Entry)](https://github.com/madelynncharron/threat-hunting-scenario-azuki-port-of-entry/blob/main/Port%20of%20Entry.md)** -  Hunt for Tor Browser installation and usage activity on endpoints, including detection logic and analysis of findings.
+- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/madelynncharron/threat-hunting-scenario-tor/blob/main/README.md)** - Investigation scenario tracing unauthorized access entry points through log correlation and endpoint analysis.
 
+<br>
+<br>
+A note on these write-ups:
+
+Screenshots and identifiers in these projects are redacted or altered where they originate from a live production environment, in line with responsible data-handling practices. The investigative methodology and technical findings are unaltered.
 
 <hr/>
 

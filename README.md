@@ -2,12 +2,14 @@
 
 I'm a security analyst working toward a dedicated SOC / defensive security analyst role, currently combining security operations with technical support in a hybrid IT/security position. My day-to-day spans threat hunting, vulnerability management, log analysis in Wazuh, dashboard building, and vendor risk assessments — and this portfolio is where I document that work in more depth, along with independent projects I've built to keep sharpening specific skills.
 
-Certifications: CompTIA CySA+ · PenTest+ · Security+ · Network+ · (ISC)² SSCP<br>
-Currently working toward: BTL1 (Blue Team Level 1)<br>
-Core tools & frameworks: Wazuh / OpenSearch Dashboards (DQL), Microsoft Sentinel (KQL), MITRE ATT&CK, Tenable/Nessus, SOC 2 & vendor risk frameworks
+**Security certifications:** CompTIA CySA+ · PenTest+ · Security+ · (ISC)² SSCP<br>
+**IT & foundational certifications:** A+ · Network+ · ITF+ · Project+ · ITIL 4 · Linux Essentials<br>
+**Currently working toward:** BTL1 (Blue Team Level 1)<br>
+**Core tools & frameworks:** Wazuh / OpenSearch Dashboards (DQL), Microsoft Sentinel (KQL), MITRE ATT&CK, Tenable/Nessus, SOC 2 & vendor risk frameworks
 
 Feel free to look around — each project below links to a full write-up.
 
+---
 
 ## ⚠️ Vulnerability Management Projects
 
@@ -20,10 +22,10 @@ Feel free to look around — each project below links to a full write-up.
 ## 🚨 Threat Hunting and Security Operations
 
 - **[Threat Hunting Scenario (Credential Access)](https://github.com/madelynncharron/threat-hunting-scenario-credential-access-dc/blob/main/README.md)** - Proactive hunt (not alert-driven) tracing a MITRE Credential Access / Pass-the-Hash pattern on a live production domain controller back to expected MFA proxy authentication behavior. Full walkthrough of the investigation logic, query-by-query reasoning, and root-cause conclusion.
-- **[Threat Hunting Scenario (Port of Entry)](https://github.com/madelynncharron/threat-hunting-scenario-azuki-port-of-entry/blob/main/Port%20of%20Entry.md)** -  Hunt for Tor Browser installation and usage activity on endpoints, including detection logic and analysis of findings.
-- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/madelynncharron/threat-hunting-scenario-tor/blob/main/README.md)** - Investigation scenario tracing unauthorized access entry points through log correlation and endpoint analysis.
+- **[Threat Hunting Scenario (Port of Entry)](https://github.com/madelynncharron/threat-hunting-scenario-azuki-port-of-entry/blob/main/Port%20of%20Entry.md)** -  Investigation scenario tracing unauthorized access entry points through log correlation and endpoint analysis.
+- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/madelynncharron/threat-hunting-scenario-tor/blob/main/README.md)** - Hunt for Tor Browser installation and usage activity on endpoints, including detection logic and analysis of findings.
 
-<br>
+---
 <br>
 A note on these write-ups:
 

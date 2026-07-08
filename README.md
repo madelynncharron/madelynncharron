@@ -5,7 +5,7 @@ I'm a security analyst working toward a dedicated SOC / defensive security analy
 **Security certifications:** CompTIA CySA+ · PenTest+ · Security+ · (ISC)² SSCP<br>
 **IT & foundational certifications:** A+ · Network+ · ITF+ · Project+ · ITIL 4 · Linux Essentials<br>
 **Currently working toward:** BTL1 (Blue Team Level 1)<br>
-**Core tools & frameworks:** Wazuh / OpenSearch Dashboards (DQL), Microsoft Sentinel (KQL), MITRE ATT&CK, Tenable/Nessus, SOC 2 & vendor risk frameworks
+**Core tools & frameworks:** Wazuh / OpenSearch Dashboards (DQL), Microsoft Sentinel (KQL), MITRE ATT&CK, Tenable/Nessus, PowerShell, CVE/CWE Management, CVSS Scoring, NIST CSF, SOC 2 & vendor risk frameworks
 
 Feel free to look around — each project below links to a full write-up.
 
